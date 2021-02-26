@@ -1,0 +1,142 @@
+{% extends "portfolio/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="row justify-content-center my-3">
+  <div class="col-5">
+    <img src="{% static 'portfolio/homepagepic.jpg' %}" class="img-fluid">
+  </div>
+</div>
+
+<div class="row justify-content-center mb-3">
+  <div class="col-md-9 text-center">
+    <h1 id="hometext" class="font-weight-bold">Welcome to Jiaqi's portfolio!😊</h1>
+  </div>
+</div>
+
+
+
+
+    <h2 class="mt-5">01 About Me</h2>
+    <hr>
+
+    <p>Hello, World!! I am a self-taught software developer who found her true passion in programming.
+
+    </p>
+
+
+
+    <h2 class="mt-5">02 Skills and Languages</h2>
+    <hr>
+    <div class="row">
+    <div class="col-md-6"><h4 class="mt-3">Programming & Database</h4></div>
+    <div class="col-md-6"><h5 class="mt-3">Python | Java|MySQL & PostgreSQL | HTML | CSS</h5></div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-6"><h4 class="mt-3">Framework</h4></div>
+    <div class="col-md-6"><h5 class="mt-3">Flask | Django | NumPy | Pandas | Beautiful Soup | urllib</h5></div>
+    </div>
+
+    <div class="row">
+    <div class="col-md-6"><h4 class="mt-3">Techniques</h4></div>
+    <div class="col-md-6"><h5 class="mt-3">REST API | Linux | JSON | Cloud | AWS | Web Crawler</h5></div>
+    </div>
+
+
+
+    <h2 class="mt-5">03 Education</h2>
+    <hr>
+     <div class="row">
+    <img src="{% static "portfolio/University_of_Tokyo-Logo.png" %}" width="150" height="90" class="d-inline-block align-top" alt="Jiaqi's Logo">
+    <h3 class="mt-4">The University of Tokyo</h3>
+     </div>
+    <p>Apr 2016 - Mar 2018<br>Master of Engineering in Urban Engineering</p>
+
+
+     <div class="row">
+    <img src="{% static "portfolio/Tsinghua_University-Logo.png" %}" width="150" height="90" class="d-inline-block align-top" alt="Jiaqi's Logo">
+    <h3 class="mt-4">Tsinghua University</h3>
+     </div>
+    <p>Aug 2011 - Jun 2015<br>Bachelor of Engineering in Water Supply and Wastewater Engineering</p>
+
+
+
+    <h2 class="mt-5">04 Experience</h2>
+
+<hr>
+    <h3 class="mt-4">Procurement and Supply Chain Specialist | <small>Panasonic Corporation in Japan</samll></h3>
+    <p>Apr 2018 - Present</p>
+    <div class="row">
+      <div class="col-md-4">
+          <h3>Tech-related Projects</h3>
+          <img src="{% static "portfolio/technology-icon-3.png" %}"  width="200" height="160" class="img-fluid mb-2">
+      </div>
+      <div class="col-md-8">
+          <h4>Quotation Checker Desktop App</h4>
+          <ul class="list-unstyled">
+            <li>・Built an auto quotation checking desktop app with Python for
+                checking if a quotation of printed circuit board being at a reasonable price</li>
+            <li>・Designed and developed user interface with Tkinter, the backend architecture,
+                price checking mechanism and database of the system (SQLite), and completed the
+                unit testing with PyUnit to ensure system robustness</li>
+            <li>・Processed 70 ~ 100 quotations monthly, which saved 17 hours/month and improved
+                the accuracy of unreasonable quotation identification to 99%</li>
+          </ul>
+          <br>
+          <h4>Purchase Order tracker</h4>
+          <ul class="list-unstyled">
+            <li>・Implemented PO-tracking tools to avoid missing orders based on Excel VBA that were
+                used by the overseas procurement team; which saved 5 hours/week and prevented 2 possible
+                serious delivery problems during the tool's 3 months service period</li>
+          </ul>
+      </div>
+  </div>
+    <br><br>
+
+    <div class="row">
+      <div class="col-md-4">
+          <h3>Key Contributions & Accomplishments</h3>
+          <img src="{% static "portfolio/team-icon-png-15.jpg" %}"  width="160" height="200" class="img-fluid mb-2">
+      </div>
+      <div class="col-md-8">
+          <div class ="row">
+              <h4> Achieved <span class="text-primary">9%</span> cost reduction <span class="text-primary">(2.8 MUSD / 30 MUSD in 2019)</span> by value engineering methodologies
+                and procurement allocation, collaborating with QA, TECH and PM teams</h4>
+
+          </div>
+
+      </div>
+  </div>
+<br><br><br>
+
+    <h2 class="mt-5">05 Contact</h2>
+
+    <hr>
+    <div class="row justify-content-center mb-3">
+  <div class="col-md-6">
+    <h4><span>Mail: <a href="mailto:xiejiaqi77.job@gmail.com">xiejiaqi77.job@gmail.com</a></span></h4>
+  </div>
+   <div class="col-md-6">
+       <h4>Phone: (+81) 080-6787-3753</h4>
+  </div>
+</div>
+
+
+    <div class="mt-10 bg text-center">
+    <br>
+    <br>
+    <br>
+
+    </div>
+
+
+
+
+
+
+
+
+{% endblock %}
