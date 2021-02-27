@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52546ce1-1003-4502-b7ae-44748f7f5622" name="Default Changelist" comment="" />
+    <list default="true" id="52546ce1-1003-4502-b7ae-44748f7f5622" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/JIAQI XIE_SDE.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/JIAQI XIE_SDE.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/static/portfolio/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/static/portfolio/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +100,7 @@
       <workItem from="1614262045354" duration="95000" />
       <workItem from="1614304342929" duration="10391000" />
       <workItem from="1614331777279" duration="6520000" />
-      <workItem from="1614403907082" duration="1054000" />
+      <workItem from="1614403907082" duration="3385000" />
     </task>
     <servers />
   </component>
