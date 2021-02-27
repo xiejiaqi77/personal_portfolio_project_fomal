@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52546ce1-1003-4502-b7ae-44748f7f5622" name="Default Changelist" comment="" />
+    <list default="true" id="52546ce1-1003-4502-b7ae-44748f7f5622" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/personal_portfolio/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/personal_portfolio/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/templates/portfolio/base.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +28,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1os6YFqyVbgIYugQ81BzJvrooaJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,6 +98,7 @@
       <workItem from="1614262045354" duration="95000" />
       <workItem from="1614304342929" duration="10391000" />
       <workItem from="1614331777279" duration="6520000" />
+      <workItem from="1614403907082" duration="746000" />
     </task>
     <servers />
   </component>
@@ -98,11 +106,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="338" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1614331808517">
-      <screen x="41" y="23" width="1239" height="777" />
+    <state x="340" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1614403912484">
+      <screen x="43" y="23" width="1237" height="777" />
     </state>
     <state x="338" y="244" key="com.intellij.ide.util.TipDialog/41.23.1239.777/1280.23.1920.1057@41.23.1239.777" timestamp="1614331808517" />
-    <state x="340" y="244" key="com.intellij.ide.util.TipDialog/43.23.1237.777/1280.23.1920.1057@43.23.1237.777" timestamp="1614222486406" />
+    <state x="340" y="244" key="com.intellij.ide.util.TipDialog/43.23.1237.777/1280.23.1920.1057@43.23.1237.777" timestamp="1614403912484" />
     <state x="340" y="244" key="com.intellij.ide.util.TipDialog/43.23.1237.777@43.23.1237.777" timestamp="1614168345926" />
   </component>
 </project>

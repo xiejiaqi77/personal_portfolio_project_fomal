@@ -124,3 +124,9 @@ STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = '/media/'  # this can be modifid
 MEDIA_ROOT = BASE_DIR / 'media'   # must be 'media' instead of db.sqlite
+
+try:
+    from .local_settings import *
+
+except ImportError:
+    print("Looks like no local file. You must be on production")
